@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+ 
+</head > 
+<body >
+
+
+<div class="ui-body-a" id="page" data-role="page" data-theme="a"  >
+<div data-role="header">
+		<h1 style="color: #00F"  style="background:#000">WinCar</h1>
+		</div>
+		<div class="ui-body-a" data-role="content">
+    
+			<h4 align="center"> Bienvenido </h4>	
+			<div data-role="content">		
+      		<img src="Autos3.gif" width="400" height="300" data-position="fixed"></div>
+      
+      		<h5 align="center"  ><em>Aqui encotraras una gran variedad de autos</em></h5>      
+     		<h5 align="center">adecuado a tus gustos</h5>
+      
+		<ul data-role="listview" data-inset="true" data-filter="true">
+      	<li data-collapsed="">
+        
+        	<a href="#page2" data-transition="fade" style="background:#000" >Deportivos </a></li>
+            <li><a href="#page3" data-transition="flip" style="background:#000">Clasicos</a></li>
+			<li><a href="#page4" data-transition="slidedown" style="background:#000">Camionetas</a></li>
+            <li><a href="#page5" data-transition="flip" style="background:#000">Super Deportivos</a></li>
+	  		</ul>		
+			</div>
+			<div data-role="footer" data-position="fixed">
+	  		<h5 >Vistanos en:
+            <a href="http://www.facebook.com/"> <img src="ft (3).jpg" width="35" height="35" > </a>
+            <a href="http://www.twitter.com/" > <img src="ft (4).jpg" width="35" height="35"> </a>
+            </h5>
+            </div>
+			</div>
+            
+
+	<div data-role="page" id="page2">
+	<div data-role="header">
+	<h1>Deportivos</h1>
+  	</div>
+	<div data-role="content">
+    	
+    </div>    
+	<div data-role="footer" data-position="fixed">
+	<h4> <a href="#page" data-transition="pop" data-role="button" data-icon="home" style="background:#000" >INICIO</a> </h4>
+    > </div>
+	</div>
+    
+
+<div data-role="page" id="page3">
+	<div data-role="header" style="border-color:#F00">
+	<h1>Clasicos</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer" data-position="fixed">
+	<h4><a href="#page" data-role="button" data-icon="home">Inicio</a></h4>
+	</div>
+	</div>
+    
+    
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+	<h1>Camionetas</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer" data-position="fixed">
+	<h4><a href="#page" data-role="button" data-icon="home" >Inicio</a></h4>
+	</div>
+	</div>
+
+
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+	<h1>Super Deportivos</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer" data-position="fixed">
+	<h4><a href="#page" data-role="button" data-icon="home" >Inicio</a></h4>
+	</div>
+	</div>
+
+
+</body>
+</html>
